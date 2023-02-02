@@ -41,7 +41,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Projects</span> Section</h2>
 
       <div className="app__work-filter">
-        {['Web App', 'Mobile App', 'E-Commerce' 'React App', 'All'].map((item, index) => (
+        {['Web App', 'Mobile App', 'E-Commerce', 'React App', 'API', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
